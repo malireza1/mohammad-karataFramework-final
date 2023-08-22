@@ -9,7 +9,9 @@ public class SmokeRunner {
 	public Karate runTest() {
 		
 		return Karate.run("classpath:features")
+
 				.tags("Smoke");
+
 	}
 
 
