@@ -6,11 +6,10 @@ public class RegressionRunner {
 	@Karate.Test
 	public Karate runTest() {
 		
-		return Karate.run("classpath:features")
+	return Karate.run("classpath:features")
 
-				.tags("Regression");
-	}
-
+	.tags("Regression");
+}
 }
 
 
