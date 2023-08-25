@@ -25,5 +25,12 @@ public class GenerateData {
 		return licensePlate;
 		
 	}
-
+public static String getUsername() {
+	String prefix ="auto_user";
+	int random = (int) (Math.random() * 10000);
+	return prefix.concat(String.valueOf(random));
+}
+public static void main(String[] args) {
+	System.out.println(getUsername());
+}
 }
